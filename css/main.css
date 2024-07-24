@@ -59,3 +59,59 @@ body {
   top: 0;
   left: 0;
 }
+
+/* Circle left */
+.circle-left {
+  position: absolute;
+  top: 350px;
+  left: 0;
+  overflow: hidden;
+
+  .circle-left__mask {
+    overflow: hidden;
+    left: 0;
+    top: 0;
+    height: 20px;
+  }
+  .circle-left__highlight {
+    display: none;
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
+}
+
+/* Mission */
+.mission-text {
+  position: absolute;
+  width: 910px;
+  height: 316px;
+  left: 110px;
+  top: 1120px;
+
+  .mission-text--eyebrow {
+    position: absolute;
+    left: 20px;
+    top: 28px;
+  }
+  .mission-text--1 {
+    position: absolute;
+    left: -2px;
+    top: 49px;
+  }
+  .mission-text--2 {
+    position: absolute;
+    left: -2px;
+    top: 119px;
+  }
+  .mission-text--3 {
+    position: absolute;
+    left: -2px;
+    top: 185px;
+  }
+  .mission-text--4 {
+    position: absolute;
+    left: -2px;
+    top: 248px;
+  }
+}

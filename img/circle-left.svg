@@ -1,0 +1,11 @@
+<svg width="105" height="518" viewBox="0 0 115 528" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path id="myPath" d="M1 517.15C64.8338 449.914 104 359.031 104 259C104 158.969 64.8338 68.0862 1 0.849609" stroke="#AED0E3" stroke-opacity="0.5"/>
+
+  <!-- Define the element to animate -->
+  <circle cx="0" cy="0" r="3" fill="#5A7085">
+    <!-- Animate the element along the path -->
+    <animateMotion repeatCount="indefinite" dur="30s">
+      <mpath href="#myPath"/>
+    </animateMotion>
+  </circle>
+</svg>
